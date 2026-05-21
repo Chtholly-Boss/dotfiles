@@ -1,0 +1,15 @@
+model_provider = "clouder"
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+disable_response_storage = true
+personality = "pragmatic"
+
+[model_providers.clouder]
+name = "clouder"
+base_url = "https://cc2.caaa.tech/v1"
+wire_api = "responses"
+requires_openai_auth = true
+
+[feature]
+multi_agent = true
+

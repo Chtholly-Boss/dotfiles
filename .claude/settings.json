@@ -1,0 +1,10 @@
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "sk-xxxx",
+    "ANTHROPIC_BASE_URL": "https://cc2.caaa.tech",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "kimi-for-coding",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-5.1"
+  },
+  "model": "opus",
+  "theme": "dark"
+}
