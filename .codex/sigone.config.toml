@@ -1,0 +1,14 @@
+model_provider = "sigone"
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+disable_response_storage = true
+personality = "pragmatic"
+
+[feature]
+multi_agent = true
+
+[model_providers.sigone]
+name = "sigone"
+base_url = "https://chat.aicc-dev.sigone.xcoresigma.com:9443/api"
+wire_api = "responses"
+env_key = "SIGONE_KEY"
